@@ -1,0 +1,32 @@
+A semiautomatic background subtraction program for taking photographs
+and converting them into seperated, background removed transparent PNG
+images. 'Autocrab' automatically loads all images from a directory one
+by one - allowing you to preview and tweak the background subtraction,
+then automatically saving the processed images to another location.
+
+Mouse clicking controls:
+
+* Left mouse click: manually fill area as background
+* Middle mouse click: post flood-fill free form brush drawing
+* Right mouse click: pre flood-fill free form brush drawing
+
+Keyboard controls:
+
+* t: View threshold
+* f: clear all interactive inputs (drawing and manual fills)
+* q: decrease threshold
+* w: increase threshold
+* e: decrease threshold more
+* r: increase threshold more
+* u: back one image file
+* z: undo last (post fill) drawing
+* z: undo last manual fill
+* c: undo last (pre fill) drawing
+* =: increase brush size
+* -: decrease brush size
+* s: save image and load next image in directory
+
+Requires OpenCV
+
+dave@fo.am
+ 
